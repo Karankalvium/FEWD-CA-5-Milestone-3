@@ -23,7 +23,7 @@ const App = () => {
       try
       {
       const respon = await fetch('https://reactnd-books-api.udacity.com/books',{
-        headers: {Authorrization:'WARNING DONT MOVE FORWARD'}
+        headers: {Authorization:'WARNING DONT MOVE FORWARD'}
       })
       const datas = await respon.json();
       console.log(datas.books);
